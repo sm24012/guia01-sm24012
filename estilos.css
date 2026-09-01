@@ -1,21 +1,45 @@
 #sm24012 {
-    background-color: #ffffff;
-    color: #333333;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 25px;
-    margin: 20px auto;
-    max-width: 600px;
-    border-radius: 12px;
-    border-left: 6px solid #2563eb;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    color: #f8fafc;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    padding: 30px;
+    margin: 25px auto;
+    max-width: 550px;
+    border-radius: 16px;
+    border-top: 4px solid #38bdf8;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#sm24012:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 30px -10px rgba(56, 189, 248, 0.2);
 }
 
 #sm24012 h2 {
-    color: #2563eb;
+    color: #38bdf8;
     margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
 }
 
 #sm24012 .carnet-texto {
-    color: #666666;
-    font-size: 0.9em;
+    background-color: rgba(56, 189, 248, 0.1);
+    color: #7dd3fc;
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    border: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+#sm24012 .descripcion {
+    line-height: 1.6;
+    color: #cbd5e1;
+    font-size: 0.95rem;
+    margin: 0;
 }
